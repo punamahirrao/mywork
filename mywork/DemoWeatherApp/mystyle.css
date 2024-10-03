@@ -1,0 +1,93 @@
+:root{
+    --bgSearchInput:#ebfffc;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+
+}
+
+.card{
+    width: 400px;
+
+    background: linear-gradient(135deg,#b67b7e,#76a98b);
+    border-radius: 25px;
+    margin: 70px auto;
+    padding: 40px 35px;
+    text-align: center;
+}
+
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search input{
+    border: 0;
+    outline: 0;
+    background-color: var(--bgSearchInput);
+    color: #555;
+    padding: 10px 20px;
+    height: 40px;
+    border-radius: 10px;
+    flex: 1;
+    margin-right: 15px;
+    font-size: 18px;
+}
+
+.search button{
+    border: 0;
+    outline:0;
+    background:var(--bgSearchInput);
+    border-radius: 25%;
+    width: 100px;
+    height: 45px;
+    cursor: pointer;
+}
+
+.weather{
+    margin-top: 25px;
+    color: white;
+    display: none;
+}
+.weather i{
+    font-size: 75px;
+}
+.temp{
+    margin-top: 15px;
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 20px;
+    margin-top: 50px;
+    font-size: 18px;
+}
+
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+
+}
+
+.details i {
+    font-size: 35px;
+    margin-right: 10px;
+}
+
+.error{
+    color: red;
+    text-align: left;
+    margin-left: 10px;
+    display: none;
+}
